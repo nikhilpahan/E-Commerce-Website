@@ -95,7 +95,6 @@ h1 {
 
 
 h2 {
-    text-align: center;
     font-size: 32px;
     margin-bottom: 32px;
     text-align: center;
@@ -118,5 +117,4 @@ button:active {
     font-size: 20px;
     border-radius: 4px;
     border: none;
-
 }
