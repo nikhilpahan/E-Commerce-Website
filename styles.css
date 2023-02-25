@@ -170,6 +170,9 @@ HIGHLIGHTS
     position: relative;
 }
 
+#highlights:after,
+#highlights:before {}
+
 #highlights:before {
     background: url('assets/wave.svg');
     content: "";
