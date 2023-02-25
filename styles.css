@@ -171,35 +171,27 @@ HIGHLIGHTS
 }
 
 #highlights:after,
-#highlights:before {}
-
 #highlights:before {
     background: url('assets/wave.svg');
     content: "";
     position: absolute;
-    top: 1px;
     left: 0;
     width: 101vw;
     height: 12vw;
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#highlights:before {
     transform: translateY(-100%);
+    top: 1px;
 }
 
 
 #highlights:after {
-    background: url('assets/wave.svg');
-    content: "";
-    position: absolute;
-    bottom: 1px;
-    left: 0;
-    width: 101vw;
-    height: 12vw;
-    z-index: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
     transform: translateY(100%) rotate(180deg);
+    bottom: 1px;
 }
 
 .highlight__wrapper {
