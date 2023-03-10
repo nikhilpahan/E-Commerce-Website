@@ -248,6 +248,7 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -297,3 +298,5 @@ FEATURES
     color: #bfbfbf;
     padding-left: 20px;
 }
+
+
