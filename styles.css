@@ -440,6 +440,12 @@ footer {
     padding: 0 8px;
 }
 
+
+/* SMALL PHONES, TABLES, LARGE SMARTPHONE */
+@media (max-width:768px)
+
+
+/* SMALL PHONES, LARGE SMARTPHONE */
 @media (max-width:550px) {
     .nav__links {
         display: none;
