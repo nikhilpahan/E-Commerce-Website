@@ -3,4 +3,6 @@ function openMenu() {
 }
 
 
-function closeMenu() {}
+function closeMenu() {
+    document.body.classList.remove('menu--open')
+}
