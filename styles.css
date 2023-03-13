@@ -97,6 +97,7 @@ li {
     text-align: center;
     border: none;
     color: #7342d6;
+    display: none;
 }
 
 
@@ -434,5 +435,9 @@ footer {
 @media (max-width:550px) {
     .nav__links {
         display: none;
+    }
+
+    .btn__menu {
+        display: block;
     }
 }
