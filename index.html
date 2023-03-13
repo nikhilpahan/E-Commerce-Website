@@ -30,9 +30,9 @@
             <i class="fas fa-times"></i>
           </button>
           <ul class="menu__links">
-            <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
-            <li class="menu__list"><a href="#features" class="menu__link">Books</a></li>
-            <li class="menu__list"><a href="#" class="menu__link no-cursor">Contact</a></li>
+            <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Home</a></li>
+            <li class="menu__list"><a href="#features" class="menu__link" onclick="closeMenu()">Books</a></li>
+            <li class="menu__list"><a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -44,7 +44,9 @@
             <h2>
               Find your dream book with <span class="purple">Library</span>
             </h2>
-            <button class="btn">Browse Books</button>
+            <a href="#features">
+              <button class="btn">Browse Books</button>
+            </a>
           </div>
           <figure class="header__img--wrapper">
             <img src="./assets/Undraw_Books.svg" alt="" />
