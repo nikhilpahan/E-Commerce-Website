@@ -430,3 +430,9 @@ footer {
 .footer__link {
     padding: 0 8px;
 }
+
+@media (max-width:550px) {
+    .nav__links {
+        display: none;
+    }
+}
