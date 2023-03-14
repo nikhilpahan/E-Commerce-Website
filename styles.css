@@ -450,15 +450,15 @@ footer {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 42px;
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     button {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .book {
@@ -478,11 +478,11 @@ footer {
     }
 
     .highlight {
-        width: 90%;
+        width: 100%;
     }
 
 
     .highlight:not(:last-child) {
-        margin-bottom:20px;
+        margin-bottom:24px;
     }
 }
